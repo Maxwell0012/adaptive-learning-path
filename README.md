@@ -46,7 +46,6 @@ Students often struggle to find a structured path to clear exams last minute. Ge
     npm run dev
     ```
 5. **The Team**
-Built during the **[Insert Hackathon Name]**.
 
 | Name | Socials |
 |------|---------|
