@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #0f172a;
+  font-family: Inter, sans-serif;
+  color: #f1f5f9;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 40px 20px;
+}
+
+/* ================= HEADER ================= */
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.6rem;
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: #94a3b8;
+}
+
+/* ================= INPUT CARD ================= */
+
+.input-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #334155;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+}
+
+/* ================= LAYOUT ================= */
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* ================= BUTTONS ================= */
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.generate-btn {
+  flex: 2;
+  background: #3b82f6;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset-btn {
+  flex: 1;
+  background: #475569;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ================= STATUS ================= */
+
+.status-bar {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-left: 4px solid #3b82f6;
+  text-align: center;
+}
+
+.status-bar.error {
+  border-left-color: #ef4444;
+  color: #fecaca;
+}
+
+/* ================= RESULTS ================= */
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 25px;
+}
+
+.result-card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid #334155;
+}
+
+/* ================= MARKDOWN ================= */
+
+.markdown-content {
+  line-height: 1.6;
+}
+
+.markdown-content h3 {
+  color: #60a5fa;
+}
+
+.markdown-content strong {
+  color: #fbbf24;
+}
+
+/* ================= ARREAR MODE ================= */
+
+.arrear-toggle {
+  margin-top: 15px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  cursor: pointer;
+  font-weight: 600;
+  color: #cbd5f5;
+  transition: all 0.25s ease;
+}
+
+.arrear-toggle .subtext {
+  display: block;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.arrear-toggle:hover {
+  background: #263449;
+}
+
+.arrear-toggle.active {
+  background: linear-gradient(to right, #7c3aed, #9333ea);
+  border-color: #a855f7;
+  color: white;
+}
+
+/* ================= VIBE CHECK ================= */
+
+.vibe-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.vibe-btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #e5e7eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.vibe-btn:hover {
+  background: #263449;
+}
+
+.vibe-btn.active {
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+  border-color: #60a5fa;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ================= QUIZ (IMPORTANT FIX) ================= */
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.quiz-option {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #e5e7eb;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  background: #263449;
+}
+
+.quiz-option.selected {
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+  border-color: #60a5fa;
+  color: white;
+}
+
+.quiz-option:disabled {
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+
+.quiz-answer {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
