@@ -45,4 +45,11 @@ Students often struggle to find a structured path to clear exams last minute. Ge
     ```bash
     npm run dev
     ```
+5. **The Team**
+Built during the **[Insert Hackathon Name]**.
 
+| Name | Socials |
+|------|---------|
+| **Maxwell B** | [GitHub](https://github.com/Maxwell0012) |
+| **Lokapradip S** | [GitHub](https://github.com/joyelaagastin-sudo) |
+| **Joyel Agastin A** | [GitHub](https://github.com/lokapradip) |
