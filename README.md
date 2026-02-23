@@ -50,5 +50,5 @@ Students often struggle to find a structured path to clear exams last minute. Ge
 | Name | Socials |
 |------|---------|
 | **Maxwell B** | [GitHub](https://github.com/Maxwell0012) |
-| **Lokapradip S** | [GitHub](https://github.com/joyelaagastin-sudo) |
-| **Joyel Agastin A** | [GitHub](https://github.com/lokapradip) |
+| **Joyel Agastin A** | [GitHub](https://github.com/joyelaagastin-sudo) |
+| **Lokapradip S** | [GitHub](https://github.com/lokapradip) |
